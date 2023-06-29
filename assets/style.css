@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+
+}
+
+.header {
+  padding: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande';
+  background-color: #472a7c;
+  color: #ffffff;
+}
+
+.header h1 {
+  display: inline-block;
+  font-size: 48px;
+}
+
+.header h1 {
+  color: #ffffff;
+}
+
+.header nav {
+  padding-top: 15px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: flex-end;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande';
+  font-size: 20px;
+}
+
+.header nav ul {
+  list-style-type: none;
+}
+
+.header nav ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+
+.about-me {
+  display: flex;
+  padding: 20px;
+
+}
+
+.about-me h1 {
+  display: flex;
+  padding: 70px;
+  border: 5px solid #000000;
+  background-color: #472a7c;
+  color: white;
+
+
+}
+
+.about-me p {
+  display: block;
+  position: relative;
+  gap: 10px;
+  border: 5px solid #000000;
+  padding: 100px;
+
+}
+
+.work {
+  display: flex;
+  padding: 70px;
+  border: 5px solid #000000;
+  background-color: #472a7c;
+  color: white;
+}

@@ -2,13 +2,14 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande';
 
 }
 a:link {
   color: white;
 }
 a:visited {
-  color: white;
+  color: rgb(250,91,61);
 }
 
 header {
@@ -16,7 +17,7 @@ header {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande';
 
   background: radial-gradient(circle farthest-corner at bottom left, rgb(250,91,61) 50%, #2b2b2b 40%);
-  /* this was a background I got from a css generator my insructor showed me. He said this would be okay to use in this assignment
+  /* this was a background I got from a css generator my instructor showed me. He said this would be okay to use in this assignment
   link: https://cssgenerator.org/gradient-css-generator.html
   */
   color: #ffffff;
@@ -24,8 +25,10 @@ header {
 
 header h1 {
   display: inline-block;
-  font-size: 48px;
+  font-size: 30px;
   color: #ffffff;
+  justify-content: flex-end;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande';
 }
 
 header nav {
@@ -49,7 +52,7 @@ header nav ul li {
 
 .avatar {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   border-radius: 100%;
 }
 .about-me {
@@ -87,6 +90,7 @@ header nav ul li {
 .contact-me {
   display: flex;
   padding: 20px;
+  justify-content: center;
 }
 
 .work h1,
@@ -96,23 +100,23 @@ header nav ul li {
   border: 5px solid #000000;
   background-color: rgb(250,91,61);
   color: white;
-  justify-content: center;
+  justify-content: baseline;
+  align-items: center;
 }
 
 .img-container{
   width: 90vw;
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 
 .img-row{
-  display: flex;
+  display: inline-block;
   gap:20px;
   justify-content: space-evenly;
-  gap: 10px;
   border: 2px solid #000000;
-  padding: 80px;
+  padding: 20px;
+  justify-items:center;
   
 }
 
@@ -123,6 +127,7 @@ header nav ul li {
   padding: 80px;
   justify-content: right;
   color: black;
+  justify-items: center;
 }
 
 footer {
@@ -136,6 +141,7 @@ footer {
   display: flex;
   padding: 20px; 
 }*/
+
 /*.contact-me h1{
   display: flex;
   padding: 70px;
